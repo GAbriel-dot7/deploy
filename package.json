@@ -1,0 +1,21 @@
+{
+  "name": "projeto-cadastro",
+  "version": "1.0.0",
+  "description": "Sistema de cadastro com MongoDB e deploy na Vercel",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "cadastro",
+    "mongodb",
+    "vercel",
+    "serverless"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.6.3"
+  }
+}
